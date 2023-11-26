@@ -1,0 +1,92 @@
+#moon__btn{
+    width: 36px;
+    height: 36px;
+    background: url(../img/bx-moon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dark #moon__btn{
+    background: url(../img/bx-sun.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dark  {
+    .header{
+       background: #000;
+    }
+    .nav__link:hover{
+        color: #FAC422;
+    }
+    .nav__contact:hover{
+        color: #000;
+    }
+    .fire__text{
+        color: #fff ;
+    }
+    .hero__text{
+        color: #fff;
+    }
+    .hero__btn{
+        color: #fff;
+        box-shadow: 0.1px 0.1px 10px  #fff;
+    }
+    .hero__btn:hover{
+        background: #fff;
+        color: #000;
+        box-shadow: 0.1px 0.1px 10px  #fff;
+    }
+    .sponsors{
+        background: #0b0a0af0;
+    }
+    .sponsors__title{
+        color: #fff;
+    }
+    .sponsors__text{
+        color: #fff;
+    }
+    .stop__shop-card{
+        background: #0b0b0be1;
+    }
+    .the__new-text{
+        color: #fff;
+    }
+    .the__new-btn{
+        color: #fff;
+        box-shadow: 0.1px 0.1px 10px  #fff;
+    }
+    .the__new-btn:hover{
+        background: #fff;
+        color: #000;
+        box-shadow: 0.1px 0.1px 10px  #fff;
+    }
+    .articles__btn{
+        color: #fff;
+        box-shadow: 0.1px 0.1px 10px  #fff;
+    }
+    .articles__btn:hover{
+        background: #fff;
+        color: #000;
+        box-shadow: 0.1px 0.1px 10px  #fff;
+    }
+    .articles__bigcard-text{
+        color: #fff;
+    }
+    .articles__card-text{
+        color: #fff;
+    }
+    .footer__box{
+        background: none;
+        background: #000000eb;
+    }
+    .footer__title{
+        color: #fff;
+    }
+    .footer__text{
+        color: #fff;
+    }
+    .footer__btn{
+        color: #000;
+    }
+}
