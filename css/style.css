@@ -453,7 +453,7 @@ button{
 }
 /* articles end */
 
-
+/* footer start */
 .footer__box{
     position: relative;
     background-image: url(../img/footer-img.png);
@@ -469,17 +469,16 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 .footer__title{
     position: relative;
     width: 746px;
     color: #141820;
-text-align: center;
-font-family:'Orbitron-400';
-font-size: 72px;
-font-weight: 400;
-line-height: 82px;
+    text-align: center;
+    font-family:'Orbitron-400';
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 82px;
 }
 .footer__line{
     position: absolute;
@@ -490,11 +489,11 @@ line-height: 82px;
     margin: 50px 0;
     width: 846px;
     color: #555;
-text-align: center;
-font-family:'Orbitron-400';
-font-size: 18px;
-font-weight: 400;
-line-height: 28px; 
+    text-align: center;
+    font-family:'Orbitron-400';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px; 
 }
 .foot__email-box{
     display: flex;
@@ -505,17 +504,17 @@ line-height: 28px;
     width: 445px;
     padding: 21px 13px;
     color: #000;
-font-family:'Orbitron-700';
-font-size: 18px;
-font-weight: 700;
-line-height: 28px;
+    font-family:'Orbitron-700';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
 }
 .footer__email::placeholder{
     color: #555;
-font-family:'Orbitron-700';
-font-size: 18px;
-font-weight: 700;
-line-height: 28px;
+    font-family:'Orbitron-700';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
 }
 .footer__btn{
     padding: 21px 8px;
@@ -523,12 +522,12 @@ line-height: 28px;
     outline: none;
     color: #57B8FF;
     background-color: #FFF;
-text-align: center;
-font-family:'Orbitron-700';
-font-size: 18px;
-font-weight: 700;
-line-height: 28px; 
-transition: .5s;
+    text-align: center;
+    font-family:'Orbitron-700';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px; 
+    transition: .5s;
 }
 .footer__btn:hover{
     background: #57B8FF;
@@ -543,3 +542,4 @@ transition: .5s;
     border-radius: 50%;
     padding: 10px;
 }
+/* footer end */
